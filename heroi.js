@@ -7,49 +7,49 @@ console.log("Quando as forças aliadas te convocam e você com sua sabedoria, fo
 console.log();
 
 console. log("Agora me responda S para SIm ou N para Não.");
- contador = 0;
+ verificar = 0;
 
  console.log();
 
 //Perguntas 
 const perg1 = prompt("Você se armou?: ");
 if (perg1.toUpperCase() == "S") {
-    contador++;
+    verificar++;
 }
 console.log();
 
 const perg2 = prompt("Você leu o plano?: ");
 if (perg2.toUpperCase() == "S") {
-    contador++;
+    verificar++;
 }
 console.log();
 
 const perg3 = prompt("Você convocou aliados: ");
 if (perg3.toUpperCase() == "S") {
-    contador++;
+    verificar++;
 }
 console.log();
 
-const perg4 = prompt("Você levou algum pet: ");
+const perg4 = prompt("Você esteve na linha de frente: ");
 if (perg4.toUpperCase() == "S") {
-    contador++;
+    verificar++;
 }
 console.log();
 
 const perg5 = prompt("Você lutou até o fim?: ");
 if (perg5.toUpperCase() == "S") {
-    contador++;
+    verificar++;
 }
 console.log();
 //Respostas
-if (contador == 0){
-    console.log("Você é um fracasso.");
-}else if (contador == 1 || contador ==2){
-    console.log("Você é covarde.");
-}else if(contador == 3){
-    console.log("Você precisa se dedicar mais.");
-}else if (contador == 4){
+if (verificar == 0){
+    console.log("Você foi um fracasso.");
+}else if (verificar == 1 || verificar ==2){
+    console.log("Você foi um covarde.");
+}else if(verificar == 3){
+    console.log("Poderia ter se empenhado mais.");
+}else if (verificar == 4){
     console.log("Obrigado pela ajuda Guerreiro.");
-}else if (contador == 5){
-    console.log("Parabéns guerreiro a vitoria foi graças a você.");
+}else if (verificar == 5){
+    console.log("Parabéns guerreiro a vitória foi graças a você.");
 }
